@@ -106,6 +106,25 @@ li {
 .menu.menu_state_open .menu-links {
   display: block; }
 
+@media (min-width: 320px) and (max-width: 812px) {
+  .menu-icon {
+    display: inline-block; }
+  .menu-links {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: #ffffff;
+    z-index: 1000;
+    overflow: auto; }
+  .menu-links-item {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #0777ba; } }
+
 @media (min-width: 320px) and (max-width: 760px) {
   .nav, .button-header, .down, .search-form__button, .penalty-title, .duty-container, .hint-text, .here, .subtitles, .penalty-image, .links, .connection, .footer-menu {
     display: none; }
@@ -128,23 +147,6 @@ li {
     .header-logo img {
       width: 197px;
       height: auto; }
-  .menu-icon {
-    display: inline-block; }
-  .menu-links {
-    position: fixed;
-    display: none;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin-top: 52px;
-    background-color: #ffffff;
-    z-index: 1000;
-    overflow: auto; }
-  .menu-links-item {
-    display: block;
-    padding: 10px 0;
-    text-align: center;
-    color: #0777ba; }
   .intro {
     padding: 48px 15px 75px 15px;
     background: url(../img/bg-mobile.png) center no-repeat/cover; }
